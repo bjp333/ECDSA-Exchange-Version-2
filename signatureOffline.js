@@ -3,12 +3,12 @@ const SHA256 = require('crypto-js/sha256');
 const hex = secp.utils.bytesToHex;
 (async () => {
   // copy-paste a private key generated when running server/index.js
-  const privateKey = "0cd047eaeaa8c745e186639a4ef7d70759595a710d02453fa8b12e3f42d2b468";
+  const privateKey = "f9cbe3013f5ad8d43f1695a006e1eed9706eea280a7adce767fe5f98f1dc5bfb";
 
   // copy-paste a separate account from your server db in to
   // send an amount less than your current balance!
   const message = JSON.stringify({
-    to: "0xc8f71f3448b3131c31c5094bf456cab0d92b9599",
+    to: "0xbfd27466b3ba875294733dd180e73cb05bb288b4",
     amount: 5
   });
 
